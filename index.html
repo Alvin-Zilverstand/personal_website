@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="https://r.mobirisesite.com/911902/assets/images/photo-1535378917042-10a22c95931a.jpeg" type="image/x-icon">
+  <meta name="description" content="This personal website showcases the journey of a software developer student in the Netherlands, highlighting projects, skills, and aspirations in the tech industry.">
+  <title>Dev Student Hub</title>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/bootstrap/css/bootstrap.min.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/parallax/jarallax.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/dropdown/css/style.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/socicon/css/styles.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/theme/css/style.css?rnd=1731924869374">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/recaptcha.css?rnd=1731924869374">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/911902/assets/css/mbr-additional.css?rnd=1731924869374" type="text/css">
+  
+  
+  
+  
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobiriseBanner.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 4s linear animationHeight;
+  -moz-animation: 4s linear animationHeight;
+    -o-animation: 4s linear animationHeight;
+       animation: 4s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobiriseBanner.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobiriseBanner .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 4s linear animationBanner;
+  -moz-animation: 4s linear animationBanner;
+    -o-animation: 4s linear animationBanner;
+       animation: 4s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobiriseBanner .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobiriseBanner .buy-license {
+  text-decoration: underline;
+}
+#mobiriseBanner .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 75% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 8rem; } }
+   
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobiriseBanner.container-banner {
+    height: 12rem;
+  }
+  #mobiriseBanner .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 75% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 75% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+}
+</style>
+</head>
+<body>
+<div class="container-banner" id="mobiriseBanner">
+  <div class="banner align-center">
+    <button type="button" onclick="document.getElementById('mobiriseBanner').classList.add('container-banner-closing')" class="btn-close" aria-label="Close" style="position: fixed;top: 16px;right: 16px;"></button>
+    <p class="mbr-text mbr-fonts-style display-7">The site was made with <a href="https://mobirise.com/builder/ai-website-builder.html" class="">Mobirise AI Website Builder</a></p>
+    <div class="mbr-section-btn">
+      <a class="btn btn-sm btn-primary display-4" href="https://ai.mobirise.com/">Create Website with AI!</a>
+      <a class="btn btn-sm btn-secondary display-4" href="https://my.mobirise.com/buy.php?p=126&u=3587906&st=911902&dm=911902.mobirisesite.com">Remove This Banner</a>
+    </div>
+  </div>
+</div>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-uutmcIVK6k" once="menu" id="menu-5-uutmcIVK6k">
+	
+
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-logo">
+					<a href="#">
+						<img src="https://r.mobirisesite.com/911902/assets/images/photo-1535378917042-10a22c95931a.jpeg" alt="" style="height: 4.3rem;">
+					</a>
+				</span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="#">CodeCrafter</a></span>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="#" aria-expanded="false">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="#">Contact</a>
+					</li>
+				</ul>
+				
+				<div class="navbar-buttons mbr-section-btn">
+					<a class="btn btn-primary display-4" href="#">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="header16 cid-uutmcIYKXM mbr-fullscreen mbr-parallax-background" id="hero-17-uutmcIYKXM">
+  
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong>Code Wizard</strong>
+        </h1>
+        
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Crafting code and conjuring solutions in the Netherlands!</p>
+        <div class="mbr-section-btn">
+          <a class="btn btn-white-outline display-7" href="#">Explore More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="header12 cid-uutmcIY1rT" id="call-to-action-8-uutmcIY1rT">
+    
+
+    
+    
+
+    <div class="text-center container">
+        <div class="row mb-4 justify-content-center">
+            <div class="col-12 col-md-4">
+                <img src="https://r.mobirisesite.com/911902/assets/images/photo-1496181133206-80ce9b88a853.jpeg" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12 content-head">
+                <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
+                    <strong>Join My Coding Adventure!</strong>
+                </h1>
+                <p class="mbr-text mbr-fonts-style mb-4 display-7">Dive into my world of code, coffee, and creativity!</p>
+                <div class="mbr-section-btn mt-4">
+                    <a class="btn btn-primary display-7" href="#">Let's Go!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image02 cid-uutmcIYdS3 mbr-fullscreen mbr-parallax-background" id="image-13-uutmcIYdS3">
+    
+    
+    <div class="container">
+        <div class="row"></div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="article15 cid-uutmcIYY8a" id="about-me-15-uutmcIYY8a">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md">
+                
+                <h6 class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-5">
+                    <strong>Passionate software developer student crafting code in the heart of the Netherlands.</strong>
+                </h6>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <p class="mbr-text mbr-fonts-style display-7">Welcome to my digital playground! I'm a software developer student based in the Netherlands, where I turn caffeine into code and ideas into reality. My journey in tech is fueled by curiosity and a relentless desire to innovate. When I'm not buried in lines of code, you can find me exploring the vibrant Dutch culture or indulging in some serious gaming sessions.</p>
+                <p class="mbr-text mbr-fonts-style display-7">I specialize in web development, mobile applications, and all things tech. My mission? To create software that not only works but also wows! I believe in the power of technology to transform lives, and I'm on a quest to make that happen, one line of code at a time. Join me as I navigate the exciting world of programming and unleash my creativity.</p>
+                <p class="mbr-text mbr-fonts-style display-7">So, whether you're here to check out my projects, read my thoughts on tech trends, or just to say hi, welcome aboard! Let's embark on this coding adventure together!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="slider2 mbr-embla cid-uutmcIYXem" id="testimonials-1-uutmcIYXem">
+    
+
+    
+    
+
+    <div class="position-relative text-center">
+        
+
+        <div class="embla" data-skip-snaps="true" data-align="center" data-auto-play="true" data-auto-play-interval="5" data-draggable="true">
+            <div class="embla__viewport container-fluid">
+                <div class="embla__container">
+                    <div class="embla__slide slider-image item" style="margin-left: 10rem; margin-right: 10rem;">
+                        <div class="user">
+                            <div class="user_image">
+                                <div class="item-wrapper position-relative">
+                                    <img src="https://r.mobirisesite.com/911902/assets/images/photo-1679746584014-fb31d4eb0a5e.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style display-5">
+                                    <strong>A coding wizard in the making!</strong>
+                                </p>
+                            </div>
+                            <div class="user_name mbr-fonts-style mb-2 display-7">Mark</div>
+                            <div class="user_desk mbr-fonts-style display-7">Mentor</div>
+                        </div>
+                    </div>
+                    <div class="embla__slide slider-image item" style="margin-left: 10rem; margin-right: 10rem;">
+                        <div class="user">
+                            <div class="user_image">
+                                <div class="item-wrapper position-relative">
+                                    <img src="https://r.mobirisesite.com/911902/assets/images/photo-1589571894960-20bbe2828d0a.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style display-5">
+                                    <strong>Brilliant ideas and execution!</strong>
+                                </p>
+                            </div>
+                            <div class="user_name mbr-fonts-style mb-2 display-7">Sophie</div>
+                            <div class="user_desk mbr-fonts-style display-7">Colleague</div>
+                        </div>
+                    </div>
+                    <div class="embla__slide slider-image item" style="margin-left: 10rem; margin-right: 10rem;">
+                        <div class="user">
+                            <div class="user_image">
+                                <div class="item-wrapper position-relative">
+                                    <img src="https://r.mobirisesite.com/911902/assets/images/photo-1626899798511-c3eaacb02846.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="user_text mb-4">
+                                <p class="mbr-fonts-style display-5">
+                                    <strong>Always pushing boundaries with creativity!</strong>
+                                </p>
+                            </div>
+                            <div class="user_name mbr-fonts-style mb-2 display-7">Tom</div>
+                            <div class="user_desk mbr-fonts-style display-7">Friend</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="embla__button embla__button--prev">
+                <span class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont" aria-hidden="true"></span>
+                <span class="sr-only visually-hidden visually-hidden">Previous</span>
+            </button>
+            <button class="embla__button embla__button--next">
+                <span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont" aria-hidden="true"></span>
+                <span class="sr-only visually-hidden visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery10 cid-uutmcIZ5zg" id="features-69-uutmcIZ5zg">
+  
+
+
+  <div class="container-fluid">
+
+      <div class="loop-container">
+        <div class="item display-1" data-linewords="Innovative projects that challenge the norm * A portfolio that speaks louder than words * " data-direction="-1" data-speed="0.05">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
+
+        <div class="item display-1" data-linewords="Innovative projects that challenge the norm * A portfolio that speaks louder than words * " data-direction="-1" data-speed="0.05">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
+      </div>
+    
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="header18 cid-uutmcIZ2i3 mbr-fullscreen" data-bg-video="https://www.youtube.com/embed/Hgg7M3kSqyE?autoplay=1&amp;loop=1&amp;playlist=Hgg7M3kSqyE&amp;t=20&amp;mute=1&amp;playsinline=1&amp;controls=0&amp;showinfo=0&amp;autohide=1&amp;allowfullscreen=true&amp;mode=transparent" id="video-5-uutmcIZ2i3">
+  
+
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features10 cid-uutmcIZUPH" id="metrics-2-uutmcIZUPH">
+  
+
+  
+  
+  <div class="container">
+    
+    <div class="row justify-content-center">
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            
+            <p class="card-title mbr-fonts-style mb-3 display-1">
+              <strong>500+</strong>
+            </p>
+            <p class="card-text mbr-fonts-style mb-3 display-7">Projects Completed</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            
+            <p class="card-title mbr-fonts-style mb-3 display-1">
+              <strong>3</strong>
+            </p>
+            <p class="card-text mbr-fonts-style mb-3 display-7">Languages Mastered</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            
+            <p class="card-title mbr-fonts-style mb-3 display-1">
+              <strong>100%</strong>
+            </p>
+            <p class="card-text mbr-fonts-style mb-3 display-7">Coffee Consumed</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="list1 cid-uutmcIZoTN" id="faq-1-uutmcIZoTN">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-10 m-auto">
+                <div class="content">
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-12 content-head">
+                            <div class="mbr-section-head">
+                                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                                    <strong>Curious Minds Ask</strong>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bootstrap-accordion_9" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_9" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What languages do you code in?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_9" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_9">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">I dabble in Python, Java, and JavaScript. If it compiles, I’m game!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_9" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How do you learn programming?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse2_9" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_9">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">I binge-watch tutorials like Netflix series!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_9" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What’s your favorite project?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_9" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_9">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Building a cat meme generator, obviously!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_9" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Do you work on weekends?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_9" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_9">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Only if there’s pizza involved!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_9" aria-expanded="false" aria-controls="collapse5">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What’s your dream job?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_9" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_9">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">To be a code wizard at Google!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery07 cid-uutmcIZUCo" id="gallery-14-uutmcIZUCo">
+  
+  
+  <div class="container-fluid gallery-wrapper">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-container-3 moving-left" style="transform: translate3d(-200px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/911902/assets/images/photo-1421757350652-9f65a35effc7.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/911902/assets/images/photo-1581091226825-a6a2a5aee158.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/911902/assets/images/photo-1487017159836-4e23ece2e4cf.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/911902/assets/images/photo-1562408590-e32931084e23.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features03 cid-uutmcIZq8Z" id="news-1-uutmcIZq8Z">
+  
+  
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-5">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head">
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <strong>Latest Coding Adventures</strong>
+          </h4>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item features-image col-12 col-md-6 col-lg-3 active">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/911902/assets/images/photo-1434493789847-2f02dc6ca35d.jpeg" alt="" title="">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
+              <strong>Just Finished My First App!</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">November 10, 2024</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">I created a weather app that tells you when to wear pants. Spoiler: it’s always raining!</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/911902/assets/images/photo-1498050108023-c5249f4df085.jpeg" alt="" title="" data-slide-to="1" data-bs-slide-to="1">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Hackathon Madness Unleashed!</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">November 5, 2024</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Survived a 48-hour hackathon. I now have a new appreciation for sleep and caffeine!</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/911902/assets/images/photo-1460925895917-afdab827c52f.jpeg" alt="" title="" data-slide-to="2" data-bs-slide-to="2">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Learning React Like a Pro!</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">October 30, 2024</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Diving into React and loving every second. Who knew components could be so addictive?</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/911902/assets/images/photo-1484662020986-75935d2ebc66.jpeg" alt="" title="" data-slide-to="2" data-bs-slide-to="2">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>My Coding Journey Begins!</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">October 25, 2024</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">From zero to hero in coding. Join me on this wild ride! Let's break the internet!</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="social4 cid-uutmcJ09Xd" id="follow-us-1-uutmcJ09Xd">
+    
+    
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12">
+                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
+                    <strong>Stay Connected With Me!</strong>
+                </h3>
+                <div class="social-list align-center">
+                    <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" href="#">
+                        <span class="socicon-facebook socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-twitter m-2" href="#" target="_blank">
+                        <span class="socicon-twitter socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-instagram m-2" href="#" target="_blank">
+                        <span class="socicon-instagram socicon"></span>
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a class="iconfont-wrapper bg-tiktok m-2" href="#" target="_blank">
+                        <span class="socicon-tiktok socicon"></span>
+                    </a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form5 cid-uutmcJ00PG" id="contact-form-3-uutmcJ00PG">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Get In Touch Now!</strong>
+                    </h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="xWk05yDAXNV2ZmC7L7mvWuNnRmXDWtO2tWuRZ5clZBvVCr2ZOK27Yf6PdRY907UHMQsmcirc/t4LXr5fikm9E3aC0lRJQrDtvL2+xUB55hJHhj09sFqMgHNfCmzOTUgo">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some problem!
+                        </div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-3-uutmcJ00PG">
+                        </div>
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-3-uutmcJ00PG">
+                        </div>
+                        <div class="col-12 form-group mb-3 mb-3" data-for="url">
+                            <input type="url" name="url" placeholder="Phone" data-form-field="url" class="form-control" value="" id="url-contact-form-3-uutmcJ00PG">
+                        </div>
+                        <div class="col-12 form-group mb-3" data-for="textarea">
+                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-form-3-uutmcJ00PG"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                            <button type="submit" class="btn btn-primary display-7">Send It!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="contacts01 cid-uutmcJ0H2x" id="contacts-1-uutmcJ0H2x">
+    
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Contact Details</strong>
+                    </h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-without-image col-12 col-md-6 active">
+                <div class="item-wrapper">
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                            <strong>Phone</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <a href="tel:+31 6 1234 5678" class="text-black">+31 6 1234 5678</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6">
+                <div class="item-wrapper">
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                            <strong>Email</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            <a href="mailto:developer@example.com" class="text-black">developer@example.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6">
+                <div class="item-wrapper">
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                            <strong>Address</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">123 Code Street, Amsterdam, Netherlands</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6">
+                <div class="item-wrapper">
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                            <strong>Working Hours</strong>
+                        </h6>
+                        <p class="mbr-text mbr-fonts-style display-7">Mon-Fri: 9am - 5pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="footer2 cid-uutmcJ1enB" once="footers" id="footer-5-uutmcJ1enB">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 center mt-2 mb-3">
+                <p class="mbr-fonts-style copyright mb-0 display-7">© 2024 Code Ninja. All rights reserved.</p>
+            </div>
+            <div class="col-12 col-lg-6 center">
+                <div class="row-links mt-2 mb-3">
+                    <ul class="row-links-soc">
+                        
+                        
+                        
+                        
+                    <li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Home</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Portfolio</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Blog</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Contact</a>
+                        </li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="https://r.mobirisesite.com/911902/assets/web/assets/jquery/jquery.min.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/parallax/jarallax.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/smoothscroll/smooth-scroll.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/ytplayer/index.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/dropdown/js/navbar-dropdown.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/embla/embla.min.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/embla/script.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/vimeoplayer/player.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/mbr-switch-arrow/mbr-switch-arrow.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/scrollgallery/scroll-gallery.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/theme/js/script.js?rnd=1731924869375"></script>
+  <script src="https://r.mobirisesite.com/911902/assets/formoid.min.js?rnd=1731924869375"></script>
+  
+  
+  
+
+</body>
+</html>
